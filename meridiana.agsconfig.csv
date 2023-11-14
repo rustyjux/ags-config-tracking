@@ -9,7 +9,7 @@ Service Name,Service Type,Service Capabilities,Provider,Instance Type,Min Instan
 base/base.MapServer,MapServer,Map,ArcObjects,Dedicated,0,1,STARTED,false,false,default,0,1,300,1 800,100,0,NAServer,false,n/a
 ,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
 ,,,,,,,,,,,,,,,,,WCSServer,false,n/a
-,,,,,,,,,,,,,,,,,WFSServer,true,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
 ,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
 ,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
 ,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
@@ -27,7 +27,7 @@ biotics/bc_administrative.MapServer,MapServer,"Data,Map,Query",ArcObjects,Dedica
 ,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetMap,GetFeatureInfo,GetStyles,GetLegendGraphic,GetSchemaExtension"
 ,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
 ,,,,,,,,,,,,,,,,,FeatureServer,false,"Query,Create,Update,Delete,Uploads,Editing"
-biotics/bc_grids.MapServer,MapServer,"Data,Map,Query",ArcObjects,Dedicated,0,2,STARTED,false,true,default,0,2,300,1 800,1000,0,NAServer,false,n/a
+biotics/bc_grids.MapServer,MapServer,"Data,Map,Query",ArcObjects,Dedicated,0,2,STARTED,false,true,default,0,20,300,1 800,1000,0,NAServer,false,n/a
 ,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
 ,,,,,,,,,,,,,,,,,WCSServer,false,n/a
 ,,,,,,,,,,,,,,,,,WFSServer,false,n/a
