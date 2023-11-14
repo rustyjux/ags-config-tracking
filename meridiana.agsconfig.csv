@@ -9,7 +9,7 @@ Service Name,Service Type,Service Capabilities,Provider,Instance Type,Min Instan
 base/base.MapServer,MapServer,Map,ArcObjects,Dedicated,0,1,STARTED,false,false,default,0,1,300,1 800,100,0,NAServer,false,n/a
 ,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
 ,,,,,,,,,,,,,,,,,WCSServer,false,n/a
-,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,true,n/a
 ,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
 ,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
 ,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
