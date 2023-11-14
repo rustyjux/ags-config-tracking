@@ -1,11 +1,11 @@
-﻿Site Details,,,,,,,,,,,,,,,,,,,
+﻿Site Details - TEST CHANGE,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
 Platform,Machine Name,Web Server MaxHeapSize,App Server MaxHeapSize,SOC MaxHeapSize,Certificate Alias,Cluster Name,Configured State,CPU Type,Memory (MB),Physical Processors,Logical Processors,OS,Server Start Time (local time),,,,,,
 Windows Server 2019-amd64-10.0,MERIDIANA.DMZ,-1,0,128,SelfSignedCertificate,default,STARTED,Intel(R) Xeon(R) Gold 6342 CPU @ 2.80GHz,40 959,16,16,Windows Server 2019-amd64-10.0,2023-11-10T14:06:58,,,,,,
 ,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
-Service Name,Service Type,Service Capabilities,Provider,Instance Type,Min Instances (Node),Max Instances (Node),Configured State,Is Cached,Is Schema Locked ,Cluster,Min Instances (Cluster),Max Instances (Cluster),Max Startup Time,Max Idle Time,Max Record Count,Service Requests,Extension Name,Is Enabled,Extension Capabilities
+Service Name,Service Type,Service Capabilities,Provider,Instance Type,Min Instances (Node),Max Instances (Node),Configured State,Is Cached,"Is Schema Locked ",Cluster,Min Instances (Cluster),Max Instances (Cluster),Max Startup Time,Max Idle Time,Max Record Count,Service Requests,Extension Name,Is Enabled,Extension Capabilities
 base/base.MapServer,MapServer,Map,ArcObjects,Dedicated,0,1,STARTED,false,false,default,0,1,300,1 800,100,0,NAServer,false,n/a
 ,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
 ,,,,,,,,,,,,,,,,,WCSServer,false,n/a
