@@ -1,0 +1,231 @@
+﻿Site Details,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Platform,Machine Name,Web Server MaxHeapSize,App Server MaxHeapSize,SOC MaxHeapSize,Certificate Alias,Cluster Name,Configured State,CPU Type,Memory (MB),Physical Processors,Logical Processors,OS,Server Start Time (local time),,,,,,
+Windows Server 2019-amd64-10.0,MERIDIANA.DMZ,-1,0,128,SelfSignedCertificate,default,STARTED,Intel(R) Xeon(R) Gold 6342 CPU @ 2.80GHz,40 959,16,16,Windows Server 2019-amd64-10.0,2023-11-10T14:06:58,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+Service Name,Service Type,Service Capabilities,Provider,Instance Type,Min Instances (Node),Max Instances (Node),Configured State,Is Cached,Is Schema Locked ,Cluster,Min Instances (Cluster),Max Instances (Cluster),Max Startup Time,Max Idle Time,Max Record Count,Service Requests,Extension Name,Is Enabled,Extension Capabilities
+base/base.MapServer,MapServer,Map,ArcObjects,Dedicated,0,1,STARTED,false,false,default,0,1,300,1 800,100,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+biotics/bc_20.MapServer,MapServer,"Data,Map,Query",ArcObjects,Dedicated,0,2,STARTED,false,true,default,0,2,300,1 800,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetMap,GetFeatureInfo,GetStyles,GetLegendGraphic,GetSchemaExtension"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Query,Create,Update,Delete,Uploads,Editing"
+biotics/bc_administrative.MapServer,MapServer,"Data,Map,Query",ArcObjects,Dedicated,0,2,STARTED,false,true,default,0,2,300,1 800,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetMap,GetFeatureInfo,GetStyles,GetLegendGraphic,GetSchemaExtension"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Query,Create,Update,Delete,Uploads,Editing"
+biotics/bc_grids.MapServer,MapServer,"Data,Map,Query",ArcObjects,Dedicated,0,2,STARTED,false,true,default,0,2,300,1 800,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetMap,GetFeatureInfo,GetStyles,GetLegendGraphic,GetSchemaExtension"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Query,Create,Update,Delete,Uploads,Editing"
+biotics/bc_habitat.MapServer,MapServer,"Data,Map,Query",ArcObjects,Dedicated,0,2,STARTED,false,true,default,0,2,300,1 800,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetMap,GetFeatureInfo,GetStyles,GetLegendGraphic,GetSchemaExtension"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Query,Create,Update,Delete,Uploads,Editing"
+biotics/bc_names.MapServer,MapServer,"Data,Map,Query",ArcObjects,Dedicated,0,2,STARTED,false,true,default,0,2,300,1 800,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetMap,GetFeatureInfo,GetStyles,GetLegendGraphic,GetSchemaExtension"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Query,Create,Update,Delete,Uploads,Editing"
+biotics/bc_parcelmaps_ownership.MapServer,MapServer,"Data,Map,Query",ArcObjects,Dedicated,0,2,STARTED,false,true,default,0,2,300,1 800,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetMap,GetFeatureInfo,GetStyles,GetLegendGraphic,GetSchemaExtension"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Query,Create,Update,Delete,Uploads,Editing"
+biotics/bc_protected_areas.MapServer,MapServer,"Data,Map,Query",ArcObjects,Dedicated,0,2,STARTED,false,true,default,0,2,300,1 800,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetMap,GetFeatureInfo,GetStyles,GetLegendGraphic,GetSchemaExtension"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Query,Create,Update,Delete,Uploads,Editing"
+fta/10000.MapServer,MapServer,"Map,Query,Data",ArcObjects,Dedicated,0,5,STARTED,false,true,default,0,5,300,600,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+fta/100000.MapServer,MapServer,"Map,Query,Data",ArcObjects,Dedicated,0,5,STARTED,false,true,default,0,5,300,600,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+fta/15000.MapServer,MapServer,"Map,Query,Data",ArcObjects,Dedicated,0,5,STARTED,false,true,default,0,5,300,600,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+fta/20000.MapServer,MapServer,"Map,Query,Data",ArcObjects,Dedicated,0,5,STARTED,false,true,default,0,5,300,600,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+fta/30000.MapServer,MapServer,"Map,Query,Data",ArcObjects,Dedicated,0,5,STARTED,false,true,default,0,5,300,600,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+fta/5000.MapServer,MapServer,"Map,Query,Data",ArcObjects,Dedicated,0,5,STARTED,false,true,default,0,5,300,600,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+fta/50000.MapServer,MapServer,"Map,Query,Data",ArcObjects,Dedicated,0,5,STARTED,false,true,default,0,5,300,600,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+fta/75000.MapServer,MapServer,"Map,Query,Data",ArcObjects,Dedicated,0,5,STARTED,false,true,default,0,5,300,600,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+mcf/ccf.MapServer,MapServer,"Map,Query,Data",ArcObjects11,Dedicated,1,2,STARTED,false,true,default,1,2,300,300,4000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetMap,GetFeatureInfo,GetStyles,GetLegendGraphic,GetSchemaExtension"
+,,,,,,,,,,,,,,,,,VersionManagementServer,false,"Create,Delete,VersionInfos,LockInfos,PurgeLock,StartEditing,StopEditing,StartReading,StopReading,DeleteForwardEdits,Alter,Differences,Reconcile,Conflicts,InspectConflicts,Post,RestoreRows,Diagnostics"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Query,Create,Update,Delete,Uploads,Editing"
+mpcm/bcgw.MapServer,MapServer,"Map,Query,Data",ArcObjects,Dedicated,2,24,STARTED,false,false,default,2,24,300,60,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,n/a
+,,,,,,,,,,,,,,,,,KmlServer,false,n/a
+,,,,,,,,,,,,,,,,,FeatureServer,false,n/a
+province/albers_cache.MapServer,MapServer,Map,ArcObjects,Dedicated,1,8,STARTED,true,false,default,1,8,300,300,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,true,"GetCapabilities,GetMap"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+province/forestresource_class.MapServer,MapServer,"Map,Query,Data",ArcObjects,Dedicated,0,2,STARTED,true,true,default,0,2,300,1 800,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+province/forestresource_restriction.MapServer,MapServer,"Map,Query,Data",ArcObjects,Dedicated,0,2,STARTED,true,true,default,0,2,300,1 800,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetMap,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+province/roads.MapServer,MapServer,Map,ArcObjects,Dedicated,0,15,STARTED,true,false,default,0,15,300,1 800,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,true,"GetCapabilities,GetMap"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+province/roads_wm.MapServer,MapServer,Map,ArcObjects,Dedicated,1,16,STARTED,true,false,default,1,16,300,300,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,true,"GetCapabilities,GetMap"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+province/web_mercator_cache.MapServer,MapServer,Map,ArcObjects,Dedicated,1,20,STARTED,true,true,default,1,20,300,300,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,true,"GetCapabilities,GetMap,GetLegendGraphic"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+results/results.MapServer,MapServer,"Map,Query",ArcObjects,Dedicated,1,5,STARTED,false,true,default,1,5,300,300,250,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetMap,GetLegendGraphic,GetSchemaExtension,GetFeatureInfo,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads,Editing"
+SampleWorldCities.MapServer,MapServer,"Map,Query,Data",ArcObjects11,Dedicated,1,1,STOPPED,false,n/a,default,1,1,300,180,1000,0,WMSServer,true,"GetCapabilities,GetFeatureInfo,GetLegendGraphic,GetMap,GetSchemaExtension,GetStyles"
+,,,,,,,,,,,,,,,,,KmlServer,true,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Create,Query,Update,Delete,Uploads"
+services/featurerefresh.MapServer,MapServer,"Map,Query,Data",ArcObjects,Dedicated,0,2,STARTED,false,true,default,0,2,300,60,1000,0,NAServer,false,n/a
+,,,,,,,,,,,,,,,,,SchematicsServer,false,Query
+,,,,,,,,,,,,,,,,,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WFSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetMap,GetFeatureInfo,GetStyles,GetLegendGraphic,GetSchemaExtension"
+,,,,,,,,,,,,,,,,,KmlServer,false,"SingleImage,SeparateImages,Vectors"
+,,,,,,,,,,,,,,,,,FeatureServer,false,"Query,Create,Update,Delete,Uploads,Editing"
+System/CachingControllers.GPServer,GPServer,n/a,ArcObjects,System_Dedicated,0,3,STARTED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+System/CachingTools.GPServer,GPServer,n/a,ArcObjects,System_Dedicated,0,3,STARTED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+System/CachingToolsEx.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,0,3,STARTED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+System/DistributedWorker.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,1,1,STOPPED,n/a,n/a,default,1,1,300,600,n/a,0,n/a,n/a,n/a
+System/DynamicMappingHost.MapServer,MapServer,"Map,Query,Data",ArcObjects11,Shared,2,2,STOPPED,false,n/a,default,0,0,300,180,1000,0,WFSServer,true,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,"GetCapabilities,GetFeatureInfo,GetLegendGraphic,GetMap,GetSchemaExtension,GetStyles"
+System/FeatureServiceToolsEx.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,0,3,STARTED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+System/GeoAnalyticsManagement.GPServer,GPServer,n/a,ArcObjects,System_Dedicated,1,1,STOPPED,n/a,n/a,default,1,1,300,180,n/a,0,n/a,n/a,n/a
+System/GeoAnalyticsTools.GPServer,GPServer,n/a,ArcObjects,System_Dedicated,1,1,STOPPED,n/a,n/a,default,1,1,300,1 800,n/a,0,n/a,n/a,n/a
+System/LocationReferencingSystemTools.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,0,3,STARTED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+System/OrthomappingTools.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,0,2,STOPPED,n/a,n/a,default,0,2,300,600,n/a,0,n/a,n/a,n/a
+System/ParcelFabricTools.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,0,3,STARTED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+System/PublishingTools.GPServer,GPServer,n/a,ArcObjects,System_Dedicated,1,2,STARTED,n/a,n/a,default,1,2,300,1 800,n/a,0,n/a,n/a,n/a
+System/PublishingToolsEx.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,1,2,STARTED,n/a,n/a,default,1,2,300,1 800,n/a,0,n/a,n/a,n/a
+System/RasterAnalysisTools.GPServer,GPServer,Uploads,ArcObjects11,System_Dedicated,0,2,STOPPED,n/a,n/a,default,0,2,300,600,n/a,0,n/a,n/a,n/a
+System/RasterProcessing.ImageServer,ImageServer,"Image,Metadata",ArcObjects11,System_Dedicated,0,2,STOPPED,n/a,n/a,default,0,2,300,180,n/a,0,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,n/a
+,,,,,,,,,,,,,,,,,JPIPServer,false,n/a
+System/RasterProcessingGPU.ImageServer,ImageServer,"Image,Metadata",ArcObjects11,System_Dedicated,1,1,STOPPED,n/a,n/a,default,1,1,300,180,n/a,0,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,n/a
+,,,,,,,,,,,,,,,,,JPIPServer,false,n/a
+System/RasterRendering.ImageServer,ImageServer,"Image,Catalog,Mensuration,Metadata",ArcObjects11,System_Dedicated,0,2,STOPPED,false,n/a,default,0,2,300,180,n/a,0,WCSServer,false,n/a
+,,,,,,,,,,,,,,,,,WMSServer,false,n/a
+,,,,,,,,,,,,,,,,,JPIPServer,false,n/a
+System/ReportingTools.GPServer,GPServer,n/a,ArcObjects,System_Dedicated,0,3,STOPPED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+System/SceneCachingControllers.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,0,3,STOPPED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+System/SceneCachingTools.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,0,3,STARTED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+System/SpatialAnalysisTools.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,1,2,STOPPED,n/a,n/a,default,1,2,300,18 000,n/a,0,n/a,n/a,n/a
+System/SyncTools.GPServer,GPServer,n/a,ArcObjects,System_Dedicated,0,3,STARTED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+System/SyncToolsEx.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,0,3,STARTED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+System/UtilityNetworkTools.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,0,3,STARTED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+System/ValidationTools.GPServer,GPServer,n/a,ArcObjects11,System_Dedicated,0,3,STOPPED,n/a,n/a,default,0,3,300,180,n/a,0,n/a,n/a,n/a
+Utilities/GeocodingTools.GPServer,GPServer,Uploads,ArcObjects11,Utilities_Dedicated,1,2,STOPPED,n/a,n/a,default,1,2,300,18 000,n/a,0,n/a,n/a,n/a
+Utilities/Geometry.GeometryServer,GeometryServer,n/a,ArcObjects11,Utilities_Dedicated,0,8,STARTED,n/a,n/a,default,0,8,300,1 800,n/a,0,n/a,n/a,n/a
+Utilities/OfflinePackaging.GPServer,GPServer,n/a,ArcObjects11,Utilities_Dedicated,0,2,STOPPED,n/a,n/a,default,0,2,300,1 800,n/a,0,n/a,n/a,n/a
+Utilities/PrintingTools.GPServer,GPServer,n/a,ArcObjects11,Utilities_Dedicated,1,8,STARTED,n/a,n/a,default,1,8,300,1 800,n/a,0,n/a,n/a,n/a
+Utilities/RasterUtilities.GPServer,GPServer,n/a,ArcObjects11,Utilities_Dedicated,0,2,STARTED,n/a,n/a,default,0,2,300,1 800,n/a,0,n/a,n/a,n/a
+Total Services: 57,,,,,,,,,,,,,,,,,,,
